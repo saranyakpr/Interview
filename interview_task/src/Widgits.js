@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import './Dashboard.css'
+import './Widgits.css'
 import MenuIcon from '@mui/icons-material/Menu';
 import Routing from './Routing';
 
-const Dashboard = () => {
+const Widgits = () => {
 
   const [menuValue, setMenuValue] = useState(true)
   
@@ -26,7 +26,7 @@ const Dashboard = () => {
         <div>
         <div>
           <div className='dashboard'>
-            Dashboard
+          Widgits
           </div>
           <div className='row pro' style={{width:'100%'}}>
                 <div class='col-12 col-sm-6 col-md-6 col-lg-3'>
@@ -102,4 +102,4 @@ const Dashboard = () => {
   )
 }
 
-export default Dashboard
+export default Widgits
